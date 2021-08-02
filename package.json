@@ -1,0 +1,30 @@
+{ 
+  "home": "http://Juan0497/PiedraPapelTijera",
+  "name": "piedrapapeltijeravs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "html-loader": "^2.1.2",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d docs",
+    "predeploy": "npm run build",
+    "build": "webpack --config=webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan0497/PiedraPapelTijera.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juan0497/PiedraPapelTijera/issues"
+  },
+  "homepage": "https://github.com/Juan0497/PiedraPapelTijera#readme"
+}
