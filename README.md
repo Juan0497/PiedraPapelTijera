@@ -1,2 +1,2 @@
 # PiedraPapelTijera
-Poryecto que compara las entradas de los dos pjs y dice quien gana 
+Proyecto que compara las dos entradas y dice quien gana 
