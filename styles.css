@@ -1,0 +1,43 @@
+*{
+    font-family: 'Bungee Inline', cursive;
+}
+.J1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+.J2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+.vs{
+    display: flex;
+
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-linear-gradient(290deg, #DCEAB9 50%, #F13B0A 50%);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
