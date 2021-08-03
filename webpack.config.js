@@ -6,7 +6,7 @@ const distPath = "docs";
 const webpackInitConfig = {
     mode: "development",
     resolve: {
-        extensions: [".js"]
+        extensions: [".js",".html"]
     },
     entry: {
         app: ["./index.html"],
